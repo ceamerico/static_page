@@ -1,6 +1,6 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'Alo'
+title = 'Eduardo´s page'
 paginate = "10" # Number of posts per page
 theme = "mainroad"
 disqusShortname = "" # Enable Disqus comments by entering your Disqus shortname
@@ -9,13 +9,13 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 
 
 [Author] # Used in authorbox
-  name = "John Doe"
-  bio = "John Doe's true identity is unknown. Maybe he is a successful blogger or writer. Nobody knows it."
+  name = "Carlos Eduardo Américo"
+  bio = "Eduardo's true identity is unknown. Maybe he is a successful blogger or writer. Nobody knows it."
   avatar = "img/foto.jpg"
 
  [Params]
-  description = "John Doe's Personal blog about everything" # Site description. Used in meta description
-  copyright = "John Doe" # Footer copyright holder, otherwise will use site title
+  description = "Eduardo's Personal blog about everything" # Site description. Used in meta description
+  copyright = "Carlos Eduardo Américo" # Footer copyright holder, otherwise will use site title
   opengraph = true # Enable OpenGraph if true
   schema = true # Enable Schema
   twitter_cards = true # Enable Twitter Cards if true
@@ -46,8 +46,8 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 
 [Params.logo]
   image = "img/placeholder.png" # Logo image. Path relative to "static"
-  title = "Mainroad" # Logo title, otherwise will use site title
-  subtitle = "Just another site" # Logo subtitle
+  title = "Eduardo's page" # Logo title, otherwise will use site title
+  subtitle = "Just a summary..." # Logo subtitle
 
 [Params.widgets.social]
   # Enable parts of social widget
