@@ -10,6 +10,7 @@ categories:
   - "Development"
   - "golang"
   - "new"
+  - "new2"
 ---
 
 ## Step 1. Install Hugo
