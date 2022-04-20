@@ -33,12 +33,29 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   customCSS = ["css/custom.css"] # Include custom CSS files
   customJS = ["js/custom.js"] # Include custom JS files
 
+
+  # DEPRECATED PARAMS
+  subtitle = "" # Deprecated in favor of .Site.Params.logo.subtitle
+  highlightColor = "" # Deprecated in favor of .Site.Params.style.vars.highlightColor
+
+[Params.style.vars]
+  highlightColor = "#250673" # Override highlight color #e22d30" #250673 #c40606
+
+  # Override font-family sets
+  # Take care of different quotes OR escaping symbols in these params if necessary
+  fontFamilyPrimary = "'Open Sans', Helvetica, Arial, sans-serif"
+  # Secondary font-family set responsible for pre, code, kbd, and samp tags font
+  fontFamilySecondary = "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
+
+# [Params.thumbnail]
+#   visibility = ["list", "post"] # Control thumbnail visibility
+
 [Params.sidebar]
   home = "right"   # Configure layout for home page
   list = "right"   # Configure layout for list pages
   single = "right" # Configure layout for single pages
   # Enable widgets in given order
-  widgets = ["search", "recent", "categories", "taglist"]
+  widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
 
 [Params.widgets]
   recent_num = 5 # Set the number of articles in the "Recent articles" widget
@@ -51,17 +68,26 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 
 [Params.widgets.social]
   # Enable parts of social widget
-  linkedin = "username"
-  github = "username"
-  email = "example@example.com"
+  linkedin = "linkedin.com/in/cea"
+  github = "ceamerico"
+  email = "cea.eng.cfd@gmail.com"
 
-
-# # Custom social links
-# [[Params.widgets.social.custom]]
-#   title = "Youtube"
-#   url = "https://youtube.com/user/username"
-#   icon = "youtube.svg" # Optional. Path relative to "layouts/partials"
+# # # Custom social links
+# # [[Params.widgets.social.custom]]
+# #   title = "Youtube"
+# #   url = "https://youtube.com/user/username"
+# #   icon = "youtube.svg" # Optional. Path relative to "layouts/partials"
 
 # [[Params.widgets.social.custom]]
 #   title = "My Home Page"
 #   url = "https://example.com"  
+
+# [[menu.main]]
+#   name = "Home"
+#   url = "http://localhost:1313/post/about/#About    "
+#   weight = 1
+
+# [[menu.main]]
+#    name = "Resume"
+#    url = "/docs/CV_E_Carlos Eduardo_04_2022.pdf"
+#    weight = 2.5

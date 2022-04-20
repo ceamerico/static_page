@@ -6,6 +6,7 @@ tags:
   - "Alou"
   - "hugo"
   - "development"
+  - "Spalart"
 categories:
   - "Development"
   - "golang"
